@@ -60,7 +60,28 @@ public class Main {
                         }
                     }
                 case 3:
-
+                    //Code chien
+//                    for (int i = 1; i <=3 ; i++) {
+//                        for (int j = 3; j >i ; j--) {
+//                            System.out.print(" ");
+//                        }
+//                        for (int k = 1; k <=(i*2-1); k++) {
+//                            System.out.print("*");
+//                        }
+//                        System.out.println("");
+//                    }
+                    //------------//
+                    int star = 1;
+                    for (int i = 1; i < 4; i++) {
+                        for (int k = 4 - i; k > 0; k--) {
+                            System.out.print(" ");
+                        }
+                        for (int j = 0; j < star; j++) {
+                            System.out.print("*");
+                        }
+                        star += 2;
+                        System.out.println("");
+                    }
             }
         }
         while (number != 4);
